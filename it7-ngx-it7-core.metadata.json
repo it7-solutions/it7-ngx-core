@@ -1,0 +1,1 @@
+{"__symbolic":"module","version":4,"metadata":{"It7Dictionary":{"__symbolic":"class","members":{}},"It7DictionaryItem":{"__symbolic":"interface"},"It7Utils":{"__symbolic":"class","members":{}}},"origins":{"It7Dictionary":"./src/dictionary","It7DictionaryItem":"./src/dictionary","It7Utils":"./src/it7-utils"},"importAs":"@it7-ngx/it7-core"}

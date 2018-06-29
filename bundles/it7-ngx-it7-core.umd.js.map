@@ -1,0 +1,14 @@
+{
+  "version": 3,
+  "file": "it7-ngx-it7-core.umd.js",
+  "sources": [
+    "ng://@it7-ngx/it7-core/out/src/it7-utils.ts",
+    "ng://@it7-ngx/it7-core/out/src/dictionary.ts"
+  ],
+  "sourcesContent": [
+    "export class It7Utils {\r\n\r\n    /**\r\n     * Удаляет из массива \"array\" элементы, которые \"comparator\" сочтет подходящими для удаления\r\n     */\r\n    static removeFromArray(array: any[], comparator: (item:any, index:number) => boolean) {\r\n        let i = array.length;\r\n        while (i--) {\r\n            if (comparator(array[i], i)) {\r\n                array.splice(i, 1);\r\n            }\r\n        }\r\n        // let indexes: number[] = [];\r\n        // array.forEach((arrayElement, index) => {\r\n        //     if (comparator(arrayElement, index)) {\r\n        //         indexes.unshift(index);\r\n        //     }\r\n        // });\r\n        // indexes.forEach(i => array.splice(i, 1));\r\n    }\r\n}",
+    "export interface It7DictionaryItem {\r\n    input: string\r\n    output: string\r\n}\r\nexport class It7Dictionary{\r\n\r\n}"
+  ],
+  "names": [],
+  "mappings": ";;;;;;ACIA,IAAA,aAAA,kBAAA,YAAA;IAAA,SAAA,aAAA,GAAA;KAEC;IAAD,OAAA,aAAC,CAAD;CAAC,EAAD,CAAA,CAAC;ADND,IAAA,QAAA,kBAAA,YAAA;IAAA,SAAA,QAAA,GAAA;KAoBC;IAfU,QAAX,CAAA,eAA0B,GAAtB,UAAuB,KAAY,EAAE,UAA+C,EAAxF;QACQ,IAAI,CAAC,GAAG,KAAK,CAAC,MAAM,CAAC;QACrB,OAAO,CAAC,EAAE,EAAE;YACR,IAAI,UAAU,CAAC,KAAK,CAAC,CAAC,CAAC,EAAE,CAAC,CAAC,EAAE;gBACzB,KAAK,CAAC,MAAM,CAAC,CAAC,EAAE,CAAC,CAAC,CAAC;aACtB;SACJ;KAQJ,CAAL;IACA,OAAA,QAAC,CAAD;CAAC,EAAD,CAAA;;;;;;;;;;;;;"
+}

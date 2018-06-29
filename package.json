@@ -1,0 +1,24 @@
+{
+  "$schema": "../../node_modules/ng-packagr/package.schema.json",
+  "name": "@it7-ngx/it7-core",
+  "version": "0.0.1",
+  "license": "MIT",
+  "private": true,
+  "peerDependencies": {
+    "@angular/common": "~5.2.0",
+    "@angular/core": "~5.2.0",
+    "rxjs": "^5.5.6"
+  },
+  "devDependencies": {
+    "@angular/common": "~5.2.0",
+    "@angular/core": "~5.2.0"
+  },
+  "main": "bundles/it7-ngx-it7-core.umd.js",
+  "module": "esm5/it7-ngx-it7-core.js",
+  "es2015": "esm2015/it7-ngx-it7-core.js",
+  "typings": "it7-ngx-it7-core.d.ts",
+  "metadata": "it7-ngx-it7-core.metadata.json",
+  "dependencies": {
+    "tslib": "^1.7.1"
+  }
+}
